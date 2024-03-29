@@ -1,0 +1,37 @@
+body {
+   
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* styling header*/
+.portfolio {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+    .portfolio__header{
+        background-color: #f0f0f0;
+        padding: 20;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        .portfolio__header__title {
+            font-size: 2rem;
+            margin: 0;
+           
+        }
+
+        .portfolio__header__subtitle {
+            margin: 0 5px;
+            font-style: italic;
+        }
+    }
+}
+
+
+
+
+
+
