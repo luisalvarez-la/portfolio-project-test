@@ -1,5 +1,5 @@
 body {
-   
+
     margin: 0;
     font-family: sans-serif;
 }
@@ -10,28 +10,54 @@ body {
     min-height: 100vh;
     flex-direction: column;
 
-    .portfolio__header{
+    .portfolio__header {
         background-color: #f0f0f0;
-        padding: 20;
+        padding: 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-    
+
         .portfolio__header__title {
             font-size: 2rem;
             margin: 0;
-           
+
         }
 
         .portfolio__header__subtitle {
-            margin: 0 5px;
+            margin: 0px 5px;
             font-style: italic;
         }
+
+        .portfolio__header__nav {
+            margin: 0;
+            padding: 0;
+
+            .portfolio__header__nav--list {
+                display: flex;
+                margin-right: 0;
+                padding: 0;
+                list-style: none;
+                
+
+                .portfolio__header__nav--item {
+                           
+                    margin-right: 20px;
+                    .portfolio__header__nav--link {
+                        text-decoration: none;
+                        color: #333000;
+                    }
+                }
+
+            }
+
+
+        }
+    }
+
+
+    /* now we are styling main*/
+    .portfolio__main {
+        flex: 1;
+        padding: 20px;
     }
 }
-
-
-
-
-
-
