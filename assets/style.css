@@ -10,9 +10,10 @@ body {
 
 /* styling header*/
 .portfolio {
-    display: flex;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    /* Header, Main, Footer */
     min-height: 100vh;
-    flex-direction: column;
 
     .portfolio__header {
         background-color: #f0f0f0;
@@ -67,8 +68,9 @@ body {
 
     /* now we are styling main*/
     .portfolio__main {
-        flex: 1;
         padding: 20px;
+        display: flex;
+        flex-direction: column;
 
 
 
@@ -179,7 +181,7 @@ body {
             }
         }
 
-        
+
     }
 
     .portfolio__footer {
@@ -192,23 +194,3 @@ body {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
