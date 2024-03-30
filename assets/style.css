@@ -5,6 +5,9 @@ body {
     font-family: sans-serif;
 }
 
+
+
+
 /* styling header*/
 .portfolio {
     display: flex;
@@ -153,9 +156,59 @@ body {
                 display: flex;
                 flex-direction: column;
                 margin-top: 10px;
+
+                .portfolio__contact--form__label {
+                    margin-bottom: 5px;
+                }
+
+                .portfolio__contact--form__input {
+                    padding: 5px;
+                    margin-bottom: 10px;
+                    border: 1px solid #cccccc
+                }
+
+                .portfolio__contact--form__button {
+                    background-color: #333333;
+                    color: #ffffff;
+                    padding: 10px 15px;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+
             }
         }
 
-        ;
+        
+    }
+
+    .portfolio__footer {
+        background-color: #f0f0f0;
+        padding: 10px;
+        text-align: center;
+
+        .portfolio__footer__text {
+            margin: 0;
+        }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
