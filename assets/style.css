@@ -37,11 +37,12 @@ body {
                 margin-right: 0;
                 padding: 0;
                 list-style: none;
-                
+
 
                 .portfolio__header__nav--item {
-                           
+
                     margin-right: 20px;
+
                     .portfolio__header__nav--link {
                         text-decoration: none;
                         color: #333000;
@@ -59,5 +60,40 @@ body {
     .portfolio__main {
         flex: 1;
         padding: 20px;
+
+
+
+        .portfolio__section {
+            margin-bottom: 20px;
+
+
+
+
+            .portfolio__section__title {
+                font-size: 1.5rem;
+                margin-bottom: 10px;
+                color: #333000;
+            }
+
+            .portfolio__section__text {
+                font-size: 1.1 rem;
+                line-height: 1.6;
+                color: #666000;
+
+
+
+            }
+
+            .firstLetter::first-letter {
+                font-size: 1.6rem;
+                margin-right: 5px;
+                color: #333000;
+            }
+
+            .portfolio__projects {
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
     }
 }
