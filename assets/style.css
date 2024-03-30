@@ -1,3 +1,4 @@
+/* Setting up body*/
 body {
 
     margin: 0;
@@ -39,6 +40,7 @@ body {
                 list-style: none;
 
 
+
                 .portfolio__header__nav--item {
 
                     margin-right: 20px;
@@ -46,6 +48,10 @@ body {
                     .portfolio__header__nav--link {
                         text-decoration: none;
                         color: #333000;
+
+                        &:hover {
+                            color: #696202;
+                        }
                     }
                 }
 
@@ -67,18 +73,18 @@ body {
             margin-bottom: 20px;
 
 
-
+            /*styling container of every section on this portfolio*/
 
             .portfolio__section__title {
                 font-size: 1.5rem;
                 margin-bottom: 10px;
-                color: #333000;
+                color: #333333;
             }
 
             .portfolio__section__text {
                 font-size: 1.1 rem;
                 line-height: 1.6;
-                color: #666000;
+                color: #666666;
 
 
 
@@ -87,13 +93,69 @@ body {
             .firstLetter::first-letter {
                 font-size: 1.6rem;
                 margin-right: 5px;
-                color: #333000;
+                color: #666666;
             }
 
+
+            /* Styling projects section*/
             .portfolio__projects {
                 display: flex;
                 flex-wrap: wrap;
+
+                .portfolio__project {
+                    width: calc(33% - 20px);
+                    margin: 10px;
+                    background-color: #eeeeee;
+                    padding: 10px;
+                    border-radius: 5px;
+
+                    .portfolio__project__title {
+                        font-size: 1rem;
+                        margin-bottom: 5px;
+
+                    }
+
+                    .portfolio__project__description {
+                        margin-bottom: 10px;
+                    }
+
+
+                    .portfolio__project__links {
+                        display: flex;
+                        margin-top: 5px;
+
+                        .portfolio__project__link {
+                            margin-right: 10px;
+                            text-decoration: none;
+                            color: #333333;
+
+                            &:hover {
+                                color: #696202;
+                            }
+                        }
+                    }
+                }
+            }
+
+            /*Styling list of skilss from the skills section*/
+            .portfolio__skills--list {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+
+                .portfolio__skills--list__item {
+                    margin-bottom: 5px
+                }
+            }
+
+            /*Styling the form from contact section*/
+            .portfolio__contact--form {
+                display: flex;
+                flex-direction: column;
+                margin-top: 10px;
             }
         }
+
+        ;
     }
 }
